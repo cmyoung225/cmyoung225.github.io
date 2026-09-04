@@ -1,33 +1,38 @@
+/*This is the css style document for the index.html file*/
+
+/*Style prefrences for website header*/
 header{
     text-align: center;
     color: rgb(30, 255, 0);
     border: 2px solid black;
 }
 
+/*Remove bottom margin for h2*/
 h2 {
     margin-bottom: 0;
 }
 
+/*Remove bottom margin for h3*/
 h3{
     margin-bottom: 0;
 }
 
+/*Remove top margin for paragraphs*/
 p {
     margin-top: 0;
 }
 
+/* Style for video caption text*/
 .videoCaption{
     margin-left: 5px;
 }
 
-.VideoTitle{
-    
-}
-
+/* Style for the "about this page" div*/
 .About{
     border-bottom: 2px solid red;
 }
 
+/* Style for video module*/
 .VideoBox{
     border: 2px solid black;
     margin-bottom: 10px;
