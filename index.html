@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en"></html>
 
+<!--HTML Head-->
 <head>
     <title> Soybean Video Repository </title>
      <link rel="stylesheet" href="style.css">
 </head>
 
+<!--HTML Body-->
 <body>
+    <!--Page Header-->
     <header>
          <h1>Research Video Repository</h1>
     </header>
-    <h2>About This Page:</h2>
-    <p>This webpage contains a catalog of videos used for thesis research.</p>
 
+    <!--About Subsection-->
+    <div class= "About">
+        <h2>About This Page:</h2>
+        <p>This webpage contains a catalog of videos used for thesis research.</p>
+    </div>
+
+    <!--Video List-->
     <h2>Featured Videos</h2>
     <ul>
-        <li>ACRE No Till Plot 101 - 21 DAE</li>
-        <li>ACRE No Till Plot 102 - 21 DAE</li>
-        <li>ACRE No Till Plot 104 - 21 DAE</li>
-        <li>ACRE No Till Plot 106 - 21 DAE</li>
+        <li> <a href="#Video1">ACRE No Till Plot 101 - 21 DAE</a></li>
+        <li> <a href="#Video2">ACRE No Till Plot 102 - 21 DAE</a></li>
+        <li> <a href="#Video3">ACRE No Till Plot 104 - 21 DAE</a></li>
+        <li> <a href="#Video4">ACRE No Till Plot 106 - 21 DAE</a></li>
     </ul>
 
     <!--Video Embedding-->
-    <div>
+    <div class="VideoBox" id ="Video1">
+        <h3 class="videoCaption">ACRE No Till Plot 101</h3>
+        <p class="videoCaption">21 DAE, 26 Seconds</p>
         <video width= "320" height= "180" controls> 
         <source src = "101.mp4" 
         type = "video/mp4"
@@ -30,7 +40,9 @@
     </div>
 
     <!--Video Embedding-->
-    <div>
+    <div class="VideoBox" id ="Video2">
+         <h3 class="videoCaption">ACRE No Till Plot 102</h3>
+        <p class="videoCaption">21 DAE, 26 Seconds</p>
         <video width= "320" height= "180" controls> 
         <source src = "102.mp4" 
         type = "video/mp4"
@@ -38,7 +50,9 @@
     </div>
 
     <!--Video Embedding-->
-    <div>
+    <div class="VideoBox" id ="Video3">
+         <h3 class="videoCaption">ACRE No Till Plot 104</h3>
+        <p class="videoCaption">21 DAE, 26 Seconds</p>
         <video width= "320" height= "180" controls> 
         <source src = "104.mp4" 
         type = "video/mp4"
@@ -46,7 +60,9 @@
     </div>
 
     <!--Video Embedding-->
-    <div>
+    <div class="VideoBox" id ="Video4">
+         <h3 class="videoCaption">ACRE No Till Plot 106</h3>
+        <p class="videoCaption">21 DAE, 26 Seconds</p>
         <video width= "320" height= "180" controls> 
         <source src = "106.mp4" 
         type = "video/mp4"
